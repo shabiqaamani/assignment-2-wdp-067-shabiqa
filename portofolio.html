@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Shabiqa's Portfolio</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/portfolio.css">
+    </head>
+    <body>
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand ms-5" href="portofolio.html">Hacktiv8</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarContent">
+                    <ul class="navbar-nav ms-auto">
+                      <li class="nav-item">
+                        <a class="nav-link" href="portofolio.html">HOME</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">PRODUCT</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">GALLERY</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">BLOG</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">MY INVENTORY</a>
+                      </li>
+
+                    </ul>
+                </div>
+            </div>
+      </nav>
+
+      <div class="container max-height-240">
+        <div class="row">
+          <div class="col-2">
+            <img class="img-fluid circular-img" src="pictures/picture1.png">
+          </div>
+          <div class="col-3">
+            <h4 class="nama" id="namaku">Shabiqa Amani</h4>
+            <p class="role" id="roleku">Front End Designer</p>
+            <button type="button" class="btn btn-primary btn-kontak" onclick="editForm();tampilkanData();">Edit</button>
+            <button type="button" class="btn btn-outline-success">Resume</button>
+            <button type="button" class="btn btn-warning" onclick="resetData()">Reset</button>
+
+          </div>
+          <div class="col-2 divider-left">
+            <p class="bold-text">Availability</p>
+            <p class="bold-text">Usia</p>
+            <p class="bold-text">Lokasi</p>
+            <p class="bold-text">Pengalaman</p>
+            <p class="bold-text">Email</p>
+          </div>
+          <div class="col-5 justify-content-left">
+            <p id="availabilityku">Full Time</p>
+            <p id="umurku">22</p>
+            <p id="lokasiku">Depok, Indonesia</p>
+            <p id="pengalamanku">3</p>
+            <p id="emailku">Shabiqaamani@gmail.com</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container divide" id="formEdit">
+        <div class="row">
+          <div class="col">
+            <form>
+              <div class="form-group">
+                <label for="nama">Nama</label>
+                <input type="text" class="form-control" name="nama" id="namaku2">
+              </div>
+              <div class="form-group">
+                <label for="role">Role</label>
+                <input type="text" class="form-control" name="role" id="myRole">
+              </div>
+              <div class="form-group">
+                <label for="availability">Availability</label>
+                <input type="text" class="form-control" name="availability" id="myAvailability">
+              </div>
+              <div class="form-group">
+                <label for="age">Age</label>
+                <input type="number" class="form-control" name="umur" id="myAge">
+              </div>
+              <div class="form-group">
+                <label for="lokasi">Lokasi</label>
+                <input type="text" class="form-control" name="lokasi" id="myLocation">
+              </div>
+              <div class="form-group">
+                <label for="years">Years Experience</label>
+                <input type="number" class="form-control" name="experience" id="myExperience">
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="e-mail" class="form-control" name="email" id="myEmail">
+              </div>
+            </form>
+
+            <button type="submit" class="btn btn-sm btn-success btn-width-100" onclick="confirmChange()">SUBMIT</button>
+            
+          </div>
+        </div>
+      </div>
+
+       
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+      <script src="js/portfolio.js"></script>
+
+    </body>
+</html>

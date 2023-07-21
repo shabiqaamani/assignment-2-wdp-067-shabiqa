@@ -1,0 +1,67 @@
+body{
+    background-color: rgba(155, 148, 148, 0.24);;
+}
+.container{
+    background-color:white;
+}
+
+.circular-img{
+    border-radius: 50%;
+    max-height: 200px;
+}
+
+.bold-text{
+    font-weight: bold;
+}
+
+.divider-left{
+    border-left: 4px solid gray;
+}
+
+.divide{
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+
+.max-height-240{
+    max-height: 240px;
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.btn-width-100{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.nama{
+    margin-top: 30px;
+    text-align: left;
+}
+
+.role{
+    color: grey;
+    font-weight: 500;
+    text-align: left;
+}
+
+.col-3 button{
+    display: inline;
+}
+
+.btn-kontak{
+    margin-right: 10px;
+}
+
+.keterangan{
+    text-align: left;
+}
+
+.form-group{
+    margin-top: 20px;
+}
+
+#formEdit{
+    display: none;
+}
